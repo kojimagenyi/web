@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Castlevania Collections</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body{
+                background: rgb(0, 0, 0) url(img/shoplist.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                 background-attachment: fixed;
+            }
+           
+        .row {
+        margin: 8px -16px;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row > .column {
+        padding: 1.5%;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+        float: left;
+        width: 22%;
+        }
+
+        /* Clear floats after rows */ 
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+        /* Content */
+        .content {
+        background-color: black;
+        padding: 10px;
+        }
+        .textuc{
+            color: crimson;
+            font-size: 20px;
+            text-align: center;
+        }
+        </style>
+    </head>
+    
+    <body style="margin: 0;">
+   
+        <div class="topnav">
+
+            <!-- Centered link -->
+            <div class="topnav-centered">
+              <a href="index.html" style="font-size: 40px; font-family: Castlevania;">Castlevania Merch Shop</a>
+            </div>
+          
+            <!-- Left-aligned links (default)  <p><img class="iimg" src="img/emblem.jpg" alt="Емблемка"></p>     -->
+
+            <a href="index.html"><img src="/img/castle.png" alt="aaaaa" class="embl"></a>
+            <a href="shop.html" class="active">Shop</a>
+            
+          
+            <!-- Right-aligned links -->
+            <div class="topnav-right">
+              <a href="pricelist.html" >Price list</a>
+              <a href="about.html">About us</a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="/img/disk.png" alt="Mountains" style="width:100%; ">
+                    <p class="textuc">Castlevania: Lords of the Shadow<br/>25$</p>
+                </div>
+            </div>
+       
+
+        
+            <div class="column">
+                <div class="content">
+                    <img src="/img/blood.jpg" alt="Mountains" style=" width:100%; ">
+                    <p class="textuc">
+                        Devil's Blood 1.0L (33.3% Vol.)<br/>40$</p>
+                </div>
+            </div>
+       
+
+        
+            <div class="column">
+                <div class="content">
+                    <img src="/img/embl.jpg" alt="Mountains" style=" width:100%; ">
+                    <p class="textuc">Эмблема Бельмонтов<br\>5$</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="/img/book.png" alt="Mountains" style=" width:100%; ">
+                    <p class="textuc">Book of Dracul<br/>1000$</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="/img/artbook.jpg" alt="Mountains" style="width:100%; ">
+                    <p class="textuc">Цифровой артбук<br\> 5$</p>
+                </div>
+            </div>
+       
+
+        
+           
+        </div>
+        
+    
+    </body>
+</html>

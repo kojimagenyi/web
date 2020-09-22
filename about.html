@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Castlevania Collections</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body{
+                background: rgb(0, 0, 0) url(img/about.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                 background-attachment: fixed;
+            }
+          
+        </style>
+    </head>
+    
+    <body style="margin: 0;">
+   
+        <div class="topnav">
+
+            <!-- Centered link -->
+            <div class="topnav-centered">
+              <a href="index.html" style="font-size: 40px; font-family: Castlevania;">Castlevania Merch Shop</a>
+            </div>
+          
+            <!-- Left-aligned links (default)  <p><img class="iimg" src="img/emblem.jpg" alt="Емблемка"></p>     -->
+         
+            
+
+            <a href="index.html"><img src="/img/castle.png" alt="aaaaa" class="embl"></a>
+            <a href="shop.html">Shop</a>
+            
+          
+            <!-- Right-aligned links -->
+            <div class="topnav-right">
+              <a href="pricelist.html">Price list</a>
+              <a href="about.html"  class="active">About us</a>
+            </div>
+        </div>
+        <div class="centre-panel2">
+            <p class="abouttext"> OOO Дракула</p>
+            <p class="abouttext"> Главный офис</p>
+            <p class="abouttext"> Румыния, Брам</p>
+            <p class="abouttext"> 8-(1234)-666-666</p>
+        </div>
+
+
+        <div id="map" style="width: 460px; height: 300px; padding-top: 3%; padding-left: 38%;" ></div>
+        <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+        <script type="text/javascript">
+            var myMap;
+            ymaps.ready(init); // Ожидание загрузки API с сервера Яндекса
+            function init () {
+            myMap = new ymaps.Map("map", {
+            center: [45.515084, 25.367224], // Координаты центра карты
+            
+            zoom: 15 // Zoom
+     });
+
+  }
+        </script>
+
+
+
+        
+    </body>
+</html>
